@@ -10,23 +10,19 @@
     <div class="flex-none">
       <ul class="menu menu-horizontal px-1">
         <li>
-          <a href="#home">Home</a>
+          <NuxtLink to="/">Home</NuxtLink>
         </li>
-
         <li>
-          <a href="#about">About</a>
+          <NuxtLink to="/about">About</NuxtLink>
         </li>
-
         <li>
-          <a href="#services">Services</a>
+          <NuxtLink to="/service">Service</NuxtLink>
         </li>
-
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <NuxtLink to="/portfolio">Portfolio</NuxtLink>
         </li>
-
         <li>
-          <a href="#contact">Contact</a>
+          <NuxtLink to="/contact">Contact</NuxtLink>
         </li>
       </ul>
     </div>
