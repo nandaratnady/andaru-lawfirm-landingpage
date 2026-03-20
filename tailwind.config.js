@@ -2,7 +2,7 @@
 export default {
   content: [
     "./app/**/*.{vue,js,ts}",
-    "./components/**/*.{vue,js,ts}"
+    "./app/components/**/*.{vue,js,ts}"
   ],
   theme: {
     extend: {},

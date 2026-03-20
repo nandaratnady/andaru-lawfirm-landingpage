@@ -3,7 +3,7 @@ const header = await useSheet("header_top");
 </script>
 
 <template>
-  <div class="bg-primary text-primary-content text-sm">
+  <div class="bg-warning text-secondary-content text-sm">
     <Container>
       <div class="flex justify-between py-2">
         <div>

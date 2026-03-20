@@ -3,7 +3,7 @@ const header = await useSheet("header_top");
 </script>
 
 <template>
-  <footer class="bg-primary text-white">
+  <footer class="bg-warning text-white">
     <Container>
       <div class="py-16 grid md:grid-cols-4 gap-10">
         <!-- Company -->
@@ -60,7 +60,7 @@ const header = await useSheet("header_top");
           <a
             :href="'https://wa.me/' + header?.[0]?.whatsapp"
             target="_blank"
-            class="btn btn-primary mt-4"
+            class="btn btn-info mt-4"
           >
             Chat WhatsApp
           </a>
