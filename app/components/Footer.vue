@@ -24,9 +24,10 @@ const header = await useSheet("header_top");
           <h3 class="font-bold text-lg mb-4">Menu</h3>
 
           <ul class="space-y-2 opacity-80">
-            <li><a href="#about" class="hover:text-primary">About</a></li>
-            <li><a href="#services" class="hover:text-primary">Services</a></li>
-            <li><a href="#portfolio" class="hover:text-primary">Portfolio</a></li>
+            <li><a href="/about" class="hover:text-primary">About</a></li>
+            <li><a href="/services" class="hover:text-primary">Services</a></li>
+            <li><a href="/portfolio" class="hover:text-primary">Portfolio</a></li>
+            <li><a href="/contact" class="hover:text-primary">Contact</a></li>
           </ul>
         </div>
 

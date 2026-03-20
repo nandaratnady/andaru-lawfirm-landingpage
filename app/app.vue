@@ -11,7 +11,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div data-theme="andaru">
+  <div data-theme="andaru" class="bg-base-100 text-base-content min-h-screen">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
