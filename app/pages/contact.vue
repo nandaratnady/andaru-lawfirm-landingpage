@@ -33,7 +33,7 @@ const data = contact.value[0]
                         ✉ {{ data.email }}
                     </p>
 
-                    <a :href="data.whatsapp" class="btn btn-primary mt-6" target="_blank">
+                    <a :href="data.whatsapp" class="btn btn-info mt-6" target="_blank">
                         Konsultasi via WhatsApp
                     </a>
 
